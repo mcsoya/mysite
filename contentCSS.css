@@ -1,0 +1,50 @@
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+.GreenBoldFont {
+    color:green;
+    font-weight: bold;
+    font-size: 15px
+}
+
+#Skill h1 {
+    width: 50px;
+    height: 26px;
+    margin: 0 auto;
+    display: inline-block;
+    background: url(./Skill.png) 0px 0px no-repeat;
+    padding: 0;
+}
+
+
+div#char_text fieldset {
+    width: 100;
+    height: 20;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+}
+
+div#char_text fieldset li {
+    color: #000000;
+    font-size: 15px;
+}
+
+.Character1 {
+    width: 256px;
+    height: 256px;
+    margin: auto;
+    display: inline-block;
+    background: url(./Resourse/나인.png) 0px 10px no-repeat
+}
+
+* {
+    border-box: border-box;
+}
